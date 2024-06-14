@@ -1,0 +1,52 @@
+[
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/jav.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.jpg"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/tableau.jpg"
+  },
+  {
+    "title": "PowerBI",
+    "imageSrc": "skills/powerBi.jpg"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    
+    {
+      "title": "JFSD",
+      "imageSrc": "skills/jfs.jpg"
+    },
+    {
+      "title": "PFSD",
+      "imageSrc": "skills/pfsd.jpg"
+    }
+    
+  ]

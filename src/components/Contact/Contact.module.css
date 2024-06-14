@@ -1,0 +1,86 @@
+/* Importing Variables */
+@import "../../vars.css";
+
+/* Card Container */
+.container {
+  color: var(--color-text);
+  background-color: #395995; /* Dark Blue */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Changed to space-between */
+  align-items: center; /* Align items vertically */
+  margin: 120px auto; /* Center the card and add margin-top */
+  padding: 58px 5%; /* Adjust padding for a compact look */
+  gap: 10px;
+  max-width: 1000px; /* Set a maximum width for the card */
+  border-radius: 15px; /* Rounded corners for the card effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* Subtle shadow for the card */
+}
+
+/* Text Section Styles */
+.text {
+  flex: 1; /* Expand to fill available space */
+}
+
+.text h2 {
+  font-size: 50px; /* Reduce font size for a more compact design */
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #E0E8F9; /* Light Blue for contrast */
+}
+
+.text p {
+  font-size: 25px; /* Reduce font size */
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #E0E8F9; /* Softer light blue */
+}
+
+/* Links Section Styles */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 7px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.link a {
+  color: #E0E8F9; /* Light Blue for links */
+  text-decoration: none;
+  font-size: 24px; /* Reduce font size */
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.link a:hover {
+  color: #A9C0E8; /* Slightly darker blue on hover */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 2px;
+    padding: 40px 5%; /* Adjust padding for smaller screens */
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+
+/* Push Get in Touch to the right and align with Contact */

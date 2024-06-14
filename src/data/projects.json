@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Ecommerce price comparision",
+      "imageSrc": "projects/ec.jpg",
+      "description": "This project is to compare product prices across multiple ECommerce sites, helping users find the best deals quickly and easily. It features real-time price updates and a user-friendly interface.",
+      "skills": ["Java Full Stack", "JSP", " SpringBoot"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Agriculture and Aquaculture System ",
+      "imageSrc": "projects/agri.jpg",
+      "description": "This project is to Empowering farmers with integrated solutions that combine modern machinery, organic fertilizers to maximize productivity and profitability.",
+      "skills": ["Python Full Stack ", " Django ", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project Management System ",
+      "imageSrc": "projects/proj.jpg",
+      "description": "This project is to Optimize project workflows and team collaboration with a comprehensive Project Management System for seamless planning and execution.",
+      "skills": ["MERN Stack", "React", "Node Js","MongoDB"],
+    "demo": "https://www.example.com",
+     "source": "https://www.github.com"
+    }
+  ]

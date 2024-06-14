@@ -1,0 +1,150 @@
+@import "../../vars.css";
+
+/* General Container Styles */
+.container {
+  color: var(--color-text);
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; /* Centering the content and limiting the max width */
+  padding: 0 20px; /* Adding padding for better spacing on smaller screens */
+}
+
+/* Title Styling */
+.title {
+  color: var(--color-text);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--color-secondary); /* Adding a bottom border for emphasis */
+  display: inline-block; /* To make the border fit the text length */
+  padding-bottom: 10px;
+}
+
+/* Content Flex Container */
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Adding space between elements */
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.skills {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 50%; /* Changed from 100% for more universal application */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow for depth */
+}
+
+.skillImageContainer img {
+  width: 80px;
+}
+
+.skill p {
+  font-size: 22px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  text-align: center; /* Centering the text */
+}
+
+/* History Section */
+.history {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 15px; /* Slightly larger radius for smoother curves */
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Adding smooth hover effect */
+}
+
+.historyItem:hover {
+  transform: translateY(-5px); /* Adding a slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adding shadow on hover */
+}
+
+.historyItem img {
+  width: 60px;
+  border-radius: 50%; /* Making images circular for a modern look */
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+  color: #f1f1f1; /* Lighter color for better readability */
+}
+
+.historyItemDetails h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.historyItemDetails p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+
+.historyItemDetails ul {
+  margin-top: 10px;
+  list-style-position: inside;
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .skills {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 300px;
+  }
+
+  .historyItem {
+    padding: 15px; /* Reduced padding for smaller screens */
+  }
+}

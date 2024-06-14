@@ -1,0 +1,43 @@
+[
+  {
+    "role": "Salesforce Developer",
+    "organisation": "SmartBridge",
+    "startDate": "Nov, 2023",
+    "endDate": "Jan, 2024",
+    "mode": "Virtual",
+    "experiences": [
+      "Gained practical experience in developing Salesforce applications."
+      
+    ],
+      "imageSrc": "history/sales.png"
+    },
+    {
+      "role": "Intern",
+      "organisation": "AICTE",
+      "startDate": "Sep, 2023",
+      "endDate": "Nov, 2023",
+      "mode": "Virtual",
+      "experiences": [
+        "Learnt about various aspects of AI and ML through courses and assignments"
+        
+      ],
+    
+    
+    "imageSrc": "history/aicte.jpg"
+  },
+    
+      {
+        "role": "Intern",
+        "organisation": "AICTE",
+        "startDate": "Dec, 2022",
+        "endDate": "Feb, 2023",
+        "mode": "Virtual",
+        "experiences": [
+          "Learnt about various aspects of Data Analytics through courses and assignments"
+          
+        ],
+      
+      
+      "imageSrc": "history/aicte.jpg"
+    }
+  ]
